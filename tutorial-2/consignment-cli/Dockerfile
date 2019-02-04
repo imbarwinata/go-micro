@@ -1,4 +1,5 @@
-FROM golang:1.9.0 as builder
+# FROM golang:1.11.5 as builder
+FROM golang:latest as builder
 
 WORKDIR /go/src/github.com/imbarwinata/go-micro/tutorial-2/consignment-cli
 
